@@ -1,0 +1,23 @@
+{
+  "name": "target-test-sp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:test1": "ts-node src/tests/1/index.ts",
+    "start:test2": "ts-node src/tests/2/index.ts",
+    "start:test3": "ts-node src/tests/3/index.ts",
+    "start:test4": "ts-node src/tests/4/index.ts",
+    "start:test5": "ts-node src/tests/5/index.ts",
+    "dev": "npm run start:test1 && npm run start:test2 && npm run start:test3 && npm run start:test4 && npm run start:test5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
