@@ -58,7 +58,7 @@ Este comando irá:
 O diretório do teste técnico está organizado da seguinte forma:
 
 ```structure
-target-test-rp/
+target-test-sp/
 ├── src/
 │   └── tests/
 │       ├── 1/
